@@ -1,8 +1,6 @@
 # nowdigitalEasy-backend
 
 
-# Node.js User API with Swagger Documentation
-
 This is a simple Node.js application that provides an API for managing users. The API includes basic CRUD operations (Create, Read, Update, Delete) for user data, and the documentation is powered by Swagger.
 
 ## Prerequisites
