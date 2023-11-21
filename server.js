@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 3000;
 
 
 app.use(bodyParser.json());
+app.get("/",(req,res)=>{
+  res.send({message:"Welcome to the API"});
+})
 
 // Routes
 app.use('/api', userRoutes);
